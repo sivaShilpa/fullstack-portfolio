@@ -1,0 +1,261 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  resize: block;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.home-container{
+    width: 100%;
+    height: 100%;
+}
+.card-about {
+  position: relative;
+  width: 150vh;
+  height: 60vh;
+  background: transparent;
+  overflow: hidden;
+  border: 0.5em solid #DEABC2;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-radius: 1em;
+  
+}
+.display-about{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.content-about{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+
+}
+.name{
+    font-size: 5em;
+    padding-bottom: 1em ;
+}
+.headshot{
+    height:40em;
+}
+.icons{    
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-bottom: 10em;    
+}
+
+.icon{
+    height: 4em;
+    padding: 0 2em;
+    margin: 0; 
+}
+.email{
+    position: absolute;
+    right: 10em;    
+}
+.LinkedIn{
+    position: absolute;
+    left: 9em;
+}
+.github{    
+    position: absolute;
+}
+.resume{
+    position: absolute;
+    right: 0.5em;
+    width: 5em;
+}
+.icon:hover{
+    height: 4.5em;
+    transition: opacity 400ms ease-out;  
+    margin: 0; 
+}
+.bio >p {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 4em 4em 0 4em;
+  line-height: 1.5em;
+}
+
+span {
+  position: absolute;
+  border-radius: 100vmax;
+}
+
+.top-about {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    #7a5c69,
+    #DEABC2
+  );
+}
+
+.bottom-about {
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    #DEABC2,
+    #7a5c69,
+    transparent 50%
+  );
+}
+
+.right-about {
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    #7a5c69,
+    #DEABC2
+  );
+}
+
+.left-about {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    #DEABC2,
+    #7a5c69,
+    transparent 70%
+  );
+}
+
+.top-about {
+  animation: animateTop 3s ease-in-out infinite;
+}
+
+.bottom-about {
+  animation: animateBottom 3s ease-in-out infinite;
+}
+
+.right-about {
+  animation: animateRight 3s ease-in-out infinite;
+}
+
+.left-about {
+  animation: animateLeft 3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
+/* @media screen and (max-width: 480px) {
+  .card-about{
+    width: 20em;
+    height: 20em;
+  }
+  .headshot{
+    width:10em;
+    height: 15em;
+  }
+  .icons{
+    width: 10em;
+  }
+  .bio{
+    font-size: 0.25em;
+  }
+}
+@media screen and (max-width: 840px) {
+  .card-about{
+    width: 40em;
+    height: 30em;
+  }
+  .headshot{
+    width:10em;
+    height: 15em;
+  }
+  .icons{
+    width: 10em;
+  }
+} */

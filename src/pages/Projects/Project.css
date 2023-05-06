@@ -1,0 +1,188 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.card-project {
+  position: relative;
+  width: 150vh;
+  height: 60vh;
+  background: transparent;
+  overflow: hidden;
+  border: 0.5em solid #C4BDE6;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+span {
+  position: absolute;
+  border-radius: 100vmax;
+}
+.card-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5em solid #DEDBC1;
+    border-radius: 1em;
+}
+.project-image{
+    width: 20em;
+    height: 20em;
+}
+button{
+  background-color: #DEDBC1;
+  color: #635a53;
+  font-size: large;
+  font-weight: bolder;
+  width: 8em;
+  padding: 0.5em;
+  text-align: center;
+  opacity: 1;
+  border-radius: 1em;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.top-project {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    #615d71,
+    #C4BDE6
+  );
+}
+
+.bottom-project {
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    #C4BDE6,
+    #615d71,
+    transparent 50%
+  );
+}
+
+.right-project {
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    #615d71,
+    #C4BDE6
+  );
+}
+
+.left-project {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    #C4BDE6,
+    #615d71,
+    transparent 70%
+  );
+}
+
+.top-project {
+  animation: animateTop 3s ease-in-out infinite;
+}
+
+.bottom-project {
+  animation: animateBottom 3s ease-in-out infinite;
+}
+
+.right-project {
+  animation: animateRight 3s ease-in-out infinite;
+}
+
+.left-project {
+  animation: animateLeft 3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}

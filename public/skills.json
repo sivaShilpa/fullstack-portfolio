@@ -1,0 +1,42 @@
+[
+    {
+        "image": "https://i.imgur.com/nsi3u6K.png",
+        "link": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    },
+    {
+        "image": "https://i.imgur.com/4FyjR9n.png",
+        "link": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+    },
+    {
+        "image": "https://i.imgur.com/z1DBtE4.png",
+        "link": "https://en.wikipedia.org/wiki/JavaScript"
+    },
+    {
+        "image": "https://i.imgur.com/AyLK9Sq.png",
+        "link": "https://en.wikipedia.org/wiki/HTML"
+    },
+    {
+        "image": "https://i.imgur.com/zqAxpd4.png",
+        "link": "https://en.wikipedia.org/wiki/CSS"
+    },
+    {
+        "image": "https://i.imgur.com/SDX6ro4.png",
+        "link": "https://en.wikipedia.org/wiki/SQL"
+    },
+    {
+        "image": "https://i.imgur.com/Xy2cOhP.png",
+        "link": "https://en.wikipedia.org/wiki/Node.js"
+    },
+    {
+        "image": "https://i.imgur.com/fvocZRW.png",
+        "link": "https://en.wikipedia.org/wiki/MongoDB"
+    },
+    {
+        "image": "https://i.imgur.com/klB8FCE.png",
+        "link": "https://en.wikipedia.org/wiki/React_(software)"
+    },
+    {
+        "image": "https://i.imgur.com/1zYV57j.png",
+        "link": "https://en.wikipedia.org/wiki/Django_(web_framework)"
+    }
+]
