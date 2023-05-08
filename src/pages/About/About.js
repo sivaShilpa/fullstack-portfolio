@@ -26,7 +26,7 @@ function About(props) {
 
   const loaded = () => (
     <div id="about-container">
-    <div class="card-about">
+    {/* <div class="card-about"> */}
     <div class="display-about">
       <img class="headshot" src={about.headshot} alt=""></img>
         <div class="content-about">
@@ -41,12 +41,12 @@ function About(props) {
         </div>        
         <div class="bio"><p>{about.bio}</p></div>
         
-      </div>
+      {/* </div> */}
     </div>
-      <span class="top-about"></span>
+      {/* <span class="top-about"></span>
       <span class="right-about"></span>
       <span class="bottom-about"></span>
-      <span class="left-about"></span>
+      <span class="left-about"></span> */}
     </div>
     <nav className={isMenuOpened ? 'menu' : 'hideMenu'}>
       <a class="about-container" href="/">Home</a>

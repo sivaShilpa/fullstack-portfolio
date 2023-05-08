@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 100%;
 }
 .card-project {
   position: relative;
@@ -31,17 +31,26 @@ span {
   position: absolute;
   border-radius: 100vmax;
 }
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60%;
+}
 .card-projects{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.5em solid #DEDBC1;
-    border-radius: 1em;
+    /* border: 0.5em solid #DEDBC1;
+    border-radius: 1em; */
+    /* margin: 30%; */
 }
 .project-image{
-    width: 20em;
-    height: 20em;
+    width: 40%;
+    height: 40%;
 }
 button{
   background-color: #DEDBC1;

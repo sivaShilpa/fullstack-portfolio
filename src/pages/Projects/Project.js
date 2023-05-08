@@ -44,12 +44,14 @@ function Projects(props) {
   };
 
   return (<div id="home-container">
-    <div class="card-project">
+    {/* <div class="card-project"> */}
+    <div class="projects">
       {projects ? loaded() : <h1>Loading...</h1>}
-      <span class="top-project"></span>
+      {/* <span class="top-project"></span>
       <span class="right-project"></span>
       <span class="bottom-project"></span>
-      <span class="left-project"></span>
+      <span class="left-project"></span> */}
+    {/* </div> */}
     </div>
     <nav className={isMenuOpened ? 'menu' : 'hideMenu'}>
       <a class="projects-container" href="/">Home</a>

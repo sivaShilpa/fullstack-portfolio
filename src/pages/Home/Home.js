@@ -24,7 +24,9 @@ function Home(props) {
       <div class="color3">rajan</div>
       </div>
       {/* </div> */}
+      <div>
       <h1 class="welcome">Welcome to my portfolio!</h1>
+      </div>
       <span class="top"></span>
       <span class="right"></span>
       <span class="bottom"></span>

@@ -28,9 +28,15 @@ body {
   flex-wrap: wrap;
 }
 .skill-image{
-    width: 15em;
-    height: 15em;
+    width: 50%;
+    height: 50%;
     margin: 1em;
+}
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 p {
