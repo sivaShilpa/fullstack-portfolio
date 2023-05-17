@@ -3,7 +3,7 @@
 ::after {
    margin: 0;
   padding: 0;
-  resize: block; 
+  resize: vertical; 
 } 
 
 body {
@@ -14,29 +14,25 @@ body {
 
 }
 .about-container{
-    width: 100%;
-    height: 100%;
-    /* padding-left: 0%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 
 }
 .card-about {
-  position: relative;
-  width: 75%;
+  position: relative; 
   height: 75%;
+  width: 75%;
   background: transparent;
   overflow: hidden;
   border: 0.5em solid #DEABC2;
-  font-family: sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  /* padding: 75%;
-  padding-left: 60%;
-  padding-right: 50%; */
-  /* padding-bottom: 100%; */
   border-radius: 1em;
-  /* margin-right: 100%; */
+  margin-left: 12%;
 }
 .display-about{
     display: flex;
@@ -57,16 +53,15 @@ body {
 }
 .name{
     font-size: 400%;
-    padding-bottom: 20% ;
+    /* padding-bottom: 20% ; */
 }
 .headshot{
-    width: 40%;
-    height:40%;
+    width: 20%;
+    height:20%;
 }
 .icons{    
     display: flex;
     flex-direction: row;
-    /* position: absolute; */
     padding-bottom: 0;    
 }
 
@@ -74,38 +69,29 @@ body {
     height: 4em;
     padding: 0 2em;
     margin: 0; 
+    transition: scale 400ms ease-in-out;
 }
-/* .email{
-    position: absolute;
-    right: 10em;    
+
+.freepik{
+  margin-left: 12%;
 }
-.LinkedIn{
-    position: absolute;
-    left: 9em;
-}
-.github{    
-    position: absolute;
-} */
 .resume{
-    /* position: absolute; */
-    /* right: 0.5em; */
     width: 5em;
+    height: 4.5em;
 }
 .icon:hover{
-    height: 4.5em;
-    transition: opacity 400ms ease-out;  
-    margin: 0; 
+  scale: 1.25;
 }
 .bio >p {
   font-size: 1.5em;
   text-align: center;
-  padding: 4em 4em 0 4em;
   line-height: 1.5em;
 }
 
 span {
   position: absolute;
   border-radius: 100vmax;
+  /* width: 75%; */
 }
 
 .top-about {
@@ -237,37 +223,3 @@ span {
     height: 100%;
   }
 }
-
-/* .card-about{
-  padding: 200px;
-  /* width: 500px; */
-/* } */ 
-/* @media screen and (max-width: 480px) {
-  .card-about{
-    width: 20em;
-    height: 20em;
-  }
-  .headshot{
-    width:10em;
-    height: 15em;
-  }
-  .icons{
-    width: 10em;
-  }
-  .bio{
-    font-size: 0.25em;
-  }
-}
-@media screen and (max-width: 840px) {
-  .card-about{
-    width: 40em;
-    height: 30em;
-  }
-  .headshot{
-    width:10em;
-    height: 15em;
-  }
-  .icons{
-    width: 10em;
-  }
-} */

@@ -37,20 +37,20 @@ function Skills(props) {
 
     return <div id="home-container">
     <div class="skills">
-        {/* <div class="card-skill"> */}
+        <div class="card-skill">
         {skills ? loaded() : <h1>Loading...</h1>}
-            {/* <span class="top-skill"></span>
+            <span class="top-skill"></span>
             <span class="right-skill"></span>
             <span class="bottom-skill"></span>
-            <span class="left-skill"></span> */}
-        {/* </div> */}
+            <span class="left-skill"></span> 
+         </div>
         </div>
         <nav className={isMenuOpened ? 'menu' : 'hideMenu'}>
             <a class="skills-container" href="/">Home</a>
             <a class="about-container" href="/About">About</a>
             <a class="projects-container" href="/Projects">Projects</a>
         </nav>
-        <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+        <div className="freepik1"> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
         <div onClick={handleMenuClicked} className='contextMenu' />
     </div>
 }

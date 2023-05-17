@@ -28,9 +28,9 @@ function Projects(props) {
   const loaded = () => {
     return projects.map((project) => (
       <div class="card-projects">
-        <div><h1>{project.name}</h1></div>
+        <div className="project-name"><h1>{project.name}</h1></div>
         <div><img class="project-image" src={project.image} alt="" /></div>
-        <div>
+        <div className="buttons">
           <a href={project.git}>
             <button>Github</button>
           </a>
@@ -38,20 +38,21 @@ function Projects(props) {
             <button>live site</button>
           </a>
         </div>
-        <div><p><strong>{project.description}</strong></p></div>
+        <div className="project-desc"><p><strong>{project.description}</strong></p></div>
       </div>
     ));
   };
 
   return (<div id="home-container">
-    {/* <div class="card-project"> */}
-    <div class="projects">
-      {projects ? loaded() : <h1>Loading...</h1>}
-      {/* <span class="top-project"></span>
+    <div class="card-project">      
+        {projects ? loaded() : <h1>Loading...</h1>}
+      
+      
+      <span class="top-project"></span>
       <span class="right-project"></span>
       <span class="bottom-project"></span>
-      <span class="left-project"></span> */}
-    {/* </div> */}
+      <span class="left-project"></span> 
+     
     </div>
     <nav className={isMenuOpened ? 'menu' : 'hideMenu'}>
       <a class="projects-container" href="/">Home</a>

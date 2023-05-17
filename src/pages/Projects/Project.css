@@ -5,24 +5,24 @@
   padding: 0;
 }
 
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-}
+} */
 .card-project {
   position: relative;
-  width: 150vh;
-  height: 60vh;
+  width: 75%;
+  height: 75%;
   background: transparent;
   overflow: hidden;
   border: 0.5em solid #C4BDE6;
-  font-family: sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   padding: 1em;
   border-radius: 1em;
 }
@@ -31,27 +31,27 @@ span {
   position: absolute;
   border-radius: 100vmax;
 }
-.projects{
+/* .projects{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  /* position: ; */
+  /* flex-wrap: wrap;
   padding-top: 60%;
-}
+} */ 
 .card-projects{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2%;
     justify-content: center;
     align-items: center;
-    /* border: 0.5em solid #DEDBC1;
-    border-radius: 1em; */
-    /* margin: 30%; */
 }
 .project-image{
-    width: 40%;
-    height: 40%;
+    width: 100px;
+    height: 100px;
 }
+
 button{
   background-color: #DEDBC1;
   color: #635a53;
@@ -63,9 +63,14 @@ button{
   opacity: 1;
   border-radius: 1em;
   text-decoration: none;
-  margin: 1em;
+  /* margin: 1em; */
 }
-
+button:hover{
+  scale: 1.15;
+}
+.buttons{
+  display: flex;
+}
 .top-project {
   top: 0;
   left: 0;
