@@ -7,25 +7,25 @@
 .home-container > h1{
   height: 100%;
   width: 100%;  
-  font-size: 5em;
+  font-size: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;  
 }
 .contextMenu {
-  width: 2.5em;
-  height: 2.5em;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
   background-color: #DEDBC1;
-  border-top: 0.5em solid #DEABC2;
-  border-right: 0.5em solid #95D3DE;
-  border-bottom: 0.5em solid #C4BDE6;
-  border-left: 0.5em solid #DEDBC1;
+  border-top: 1.5vh solid #DEABC2;
+  border-right: 1.5vh solid #95D3DE;
+  border-bottom: 1.5vh solid #C4BDE6;
+  border-left: 1.5vh solid #DEDBC1;
   position: fixed;
   cursor: pointer;
   bottom: 0;
   margin: 1em;
-  z-index: 1;
+  /* z-index: -1; */
   left: 10px;
   margin-left: 10px;
 } 
@@ -36,12 +36,12 @@
 }
 .menu{
   position: fixed;
-  bottom: 0;
-  margin: 2.5em 4em 4em;
+  bottom: 10vh;
+  margin: 2.5vh 4vh 4vh 7vh;
   z-index: 1;
   display: flex;
   flex-flow: column;
-  gap:1em;
+  gap:2vh;
   position: fixed;
   left: 0;    
 } 
@@ -49,15 +49,15 @@
   background-color: #DEDBC1;
   color: #635a53;
   font-weight: bolder;
-  width: 8em;
-  padding: 0.5em;
+  width: 15vh;
+  padding: 2vh;
   text-align: center;
   transform: translateY(-2.5em);
   transition: transform 400ms 0ms, opacity 1ms ease-out;
   opacity: 1;
   border-radius: 1em;
   text-decoration: none;    
-  
+ 
 }
 .menu>a:nth-child(2){
   transform: translateY(-1.5em);
@@ -74,7 +74,7 @@
 }
 .hideMenu {
   position: fixed;
-  bottom: 0;
+  /* bottom: 0; */
   margin: 2.5em 4em;
   display: flex;
   flex-flow: column;
@@ -84,7 +84,7 @@
 .hideMenu > a {
   background-color: #DEDBC1;
   color: #635a53; 
-  width: 150px;
+  width: 15vh;
   padding: 0.5em;
   text-align: center;
   visibility: none;
@@ -136,7 +136,7 @@ footer{
 .card {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 75%;
   background: transparent;
   overflow: hidden;
   border-top: 0.5em solid #DEABC2;
@@ -151,10 +151,10 @@ footer{
   border-radius: 1em;
 }
 .welcome{
-  font-size: 4em;
+  font-size: 10vh;
 }
 .name-home{
-  font-size: 7em;
+  font-size: 15vh;
   display: flex;
   flex-direction: row;
   font-weight: bolder;
@@ -309,27 +309,28 @@ span {
   }
 }
 
-@media screen and (max-width: 1366px) {
-  .card{
-    width: 20em;
-    height: 20em;
-  }
-  .name-home{
-    font-size:3em;
-  }
-  .welcome{
-    font-size: 1.5em;
-  }
-}
 @media screen and (max-width: 812px) {
   .card{
-    width: 40em;
-    height: 30em;
+    width: 90vh;
+    height: 50vh;
   }
   .name-home{
-    font-size:5em;
+    font-size: 10vh;
   }
   .welcome{
-    font-size: 3em;
+    font-size: 7vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card{
+    width: 50vh;
+    height: 50vh;
+  }
+  .name-home{
+    font-size: 0vh;
+  }
+  .welcome{
+    font-size: 0vh;
   }
 }

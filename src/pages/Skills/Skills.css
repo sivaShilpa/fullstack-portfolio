@@ -179,3 +179,27 @@ span {
     height: 100%;
   }
 }
+@media screen and (max-width: 812px) {
+  .card-skill{
+    width: 130vh;
+    height: 70vh;
+    margin-left: 0;
+    margin-top: 10%;
+  }
+  .freepik1{
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-skill{
+    width: 30vh;
+    height: 30vh;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .freepik1{
+    margin-left: 5%;
+  }
+  
+ }

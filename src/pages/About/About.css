@@ -22,8 +22,8 @@ body {
 }
 .card-about {
   position: relative; 
-  height: 75%;
-  width: 75%;
+  height: 75vh;
+  width: 175vh;
   background: transparent;
   overflow: hidden;
   border: 0.5em solid #DEABC2;
@@ -32,7 +32,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-radius: 1em;
-  margin-left: 12%;
+  margin-left: 12vh;
 }
 .display-about{
     display: flex;
@@ -52,7 +52,7 @@ body {
 
 }
 .name{
-    font-size: 400%;
+    font-size: 10vh;
     /* padding-bottom: 20% ; */
 }
 .headshot{
@@ -66,26 +66,28 @@ body {
 }
 
 .icon{
-    height: 4em;
-    padding: 0 2em;
+    height: 9vh;
+    padding: 0 5vh;
     margin: 0; 
     transition: scale 400ms ease-in-out;
 }
 
 .freepik{
-  margin-left: 12%;
+  margin-left: 12vh;
+  font-size: 3vh;
 }
 .resume{
-    width: 5em;
-    height: 4.5em;
+    width: 13vh;
+    height: 10vh;
 }
 .icon:hover{
   scale: 1.25;
 }
 .bio >p {
-  font-size: 1.5em;
+  font-size: 3vh;
   text-align: center;
-  line-height: 1.5em;
+  line-height: 5vh;
+  margin: 3vh;
 }
 
 span {
@@ -222,4 +224,51 @@ span {
     opacity: 1;
     height: 100%;
   }
+}
+
+@media screen and (max-width: 812px) {
+  .card{
+    width: 90vh;
+    height: 50vh;
+  }
+  .name-home{
+    font-size: 10vh;
+  }
+  .welcome{
+    font-size: 7vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-about{
+    width: 40vh;
+    height: 75vh;
+    margin-left: 1vh;
+    /* padding-right: 3vh; */
+  }
+  .name{
+    font-size: 3vh;
+  }
+  .bio >p {
+    font-size: 2vh;
+    text-align: center;
+    line-height: 3vh;
+    /* margin: 10vh; */
+  }
+  .freepik{
+    font-size: 2vh;
+    margin-left: 1vh;
+  }
+  .icon{
+    height: 3vh;
+    padding: 0 1vh;
+  }
+  .headshot{
+    width: 0%;
+    height:0%;
+}
+.resume{
+  width: 5vh;
+  height: 3.5vh;
+}
 }

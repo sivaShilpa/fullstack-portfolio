@@ -12,7 +12,7 @@ function Home(props) {
   }
 
   return <div id="home-container">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <div class="card">
       <div class="name-home">
       {/* <div class="first-name"> */}
@@ -38,6 +38,7 @@ function Home(props) {
       <a class="projects-container" href="/Projects">Projects</a>
     </nav>
     <div onClick={handleMenuClicked} className='contextMenu' />
+    
   </div>
 }
 

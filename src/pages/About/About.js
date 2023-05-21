@@ -26,6 +26,7 @@ function About(props) {
 
   const loaded = () => (
     <div id="about-container">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <div class="card-about">
     <div class="display-about">
       <img class="headshot" src={about.headshot} alt=""></img>
