@@ -37,12 +37,12 @@ function Skills(props) {
 
     return <div id="home-container">
     <div class="skills">
-        <div class="card-skill">
+        <div class="">
         {skills ? loaded() : <h1>Loading...</h1>}
-            <span class="top-skill"></span>
+            {/* <span class="top-skill"></span>
             <span class="right-skill"></span>
             <span class="bottom-skill"></span>
-            <span class="left-skill"></span> 
+            <span class="left-skill"></span>  */}
          </div>
         </div>
         <nav className={isMenuOpened ? 'menu' : 'hideMenu'}>

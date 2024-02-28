@@ -26,8 +26,8 @@ function About(props) {
 
   const loaded = () => (
     <div id="about-container">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <div class="card-about">
+    {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
+    {/* <div class="card-about"> */}
     <div class="display-about">
       <img class="headshot" src={about.headshot} alt=""></img>
         <div class="content-about">
@@ -43,11 +43,11 @@ function About(props) {
         <div class="bio"><p>{about.bio}</p></div>
         
       </div>
-    </div>
-      <span class="top-about"></span>
+    {/* </div> */}
+      {/* <span class="top-about"></span>
       <span class="right-about"></span>
       <span class="bottom-about"></span>
-      <span class="left-about"></span>
+      <span class="left-about"></span> */}
     </div>
     <nav className={isMenuOpened ? 'menu' : 'hideMenu'}>
       <a class="about-container" href="/">Home</a>
