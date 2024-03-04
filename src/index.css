@@ -1,24 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@300&family=Ubuntu&display=swap');
-* {
-  background-color: #635a53;
-  color: #DEDBC1;
-  font-family: 'Ubuntu', 'Karla', 'Poppins';
-}
-*,
-::before,
-::after {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 85vh;
-}
-header{
-  display: flex;
-  justify-content: left;
-  align-items: left;
+  background-color: #635a53;
+  font-family: 'Ubuntu', 'Karla', 'Poppins';
 }
