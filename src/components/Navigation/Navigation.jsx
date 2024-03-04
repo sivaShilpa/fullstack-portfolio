@@ -31,7 +31,7 @@ const Navigation = () => {
   return (
     <header>
       <img
-        className={`activator ${isToggled ? 'active' : ''}`}
+        className={`icon activator ${isToggled ? 'active' : ''}`}
         id="activator"
         ref={cardRef}
         src={Images.Menu}
@@ -40,10 +40,10 @@ const Navigation = () => {
       />
       <nav>
         <ul>
-          <li><a href="/"><img src={Images.Home} alt="Home"/></a></li>
-          <li><a href="/About"><img src={Images.About} alt="About"/></a></li>
-          <li><a href="/Projects"><img src={Images.Projects} alt="Projects"/></a></li>
-          <li><a href="/Skills"><img src={Images.Skills} alt="Skills"/></a></li>
+          <li><a href="/"><img className="icon" src={Images.Home} alt="Home"/></a></li>
+          <li><a href="/About"><img className="icon" src={Images.About} alt="About"/></a></li>
+          <li><a href="/Skills"><img className="icon" src={Images.Skills} alt="Skills"/></a></li>
+          <li><a href="/Projects"><img className="icon" src={Images.Projects} alt="Projects"/></a></li>
         </ul>
       </nav>
     </header>

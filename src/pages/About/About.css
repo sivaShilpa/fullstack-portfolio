@@ -1,0 +1,24 @@
+.cardAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 70%; */
+    gap: 5px;
+    margin: 70px 50px 50px 30px;    
+}
+
+.profilePic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 50%;
+    /* height: 50%; */
+    object-fit: cover;
+}
+
+.display-about {
+    
+}

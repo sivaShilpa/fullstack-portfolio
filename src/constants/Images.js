@@ -3,7 +3,7 @@ import Home from "../assets/NavigationIcons/home.png";
 import Projects from "../assets/NavigationIcons/projects.png";
 import Skills from "../assets/NavigationIcons/skills.png";
 import Menu from "../assets/NavigationIcons/menus.png";
-
+import profilePic from "../assets/about/portfolio_pic.jpg"
 
 const Images = {
   Home: Home,
@@ -11,5 +11,6 @@ const Images = {
   Projects: Projects,
   Skills: Skills,
   Menu: Menu,
+  ProfilePic: profilePic,
 };
 export default Images;

@@ -20,7 +20,7 @@ header {
   }
 }
 
-img {
+.icon {
   width: 100%;
   max-width: 45px;
 }
