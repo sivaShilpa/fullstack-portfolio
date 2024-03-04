@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import gsap from "gsap";
 import "./Navigation.css";
-import Images from "../constants/Images";
+import Images from "../../constants/Images";
 
 const Navigation = () => {
   const cardRef = useRef(null);

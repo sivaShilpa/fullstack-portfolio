@@ -17,7 +17,7 @@ body {
   align-items: center;
   height: 85vh;
 }
-footer{
+header{
   display: flex;
   justify-content: left;
   align-items: left;
