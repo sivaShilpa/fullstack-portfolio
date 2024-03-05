@@ -1,8 +1,22 @@
-.fullname {
-    font-size: 200px;
+.firstName,
+.lastName {
+  font-size: 200px;
+  -webkit-text-stroke-width: 5px;
 }
-.welcomeMessage{
-    font-size: 100px;
-    text-align: center;
+.firstName,
+.lastName,
+.welcomeMessage {
+  -webkit-text-stroke-color: #635a53;
 }
-  
+.firstName {
+  color: #388795;
+}
+.lastName {
+  color: #6d6592;
+}
+.welcomeMessage {
+  font-size: 100px;
+  text-align: center;
+  color: #a16a83;
+  -webkit-text-stroke-width: 3px;
+}

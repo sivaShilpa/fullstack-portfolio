@@ -1,14 +1,13 @@
 .goldBox, .blueBox, .pinkBox, .purpleBox{
    border-radius: 20px;
    padding: 20px; 
-   color: #635a53   
 }
 
 .blueBox {   
    background: linear-gradient(45deg,#388795,#95D3DE);   
 }
 .goldBox {
-   background: linear-gradient(45deg,#918D68,#DEDBC1);  
+   background: linear-gradient(to right,#918D68,#DEDBC1);  
 }
 .pinkBox {
    background: linear-gradient(45deg,#A16A83,#DEABC2);  

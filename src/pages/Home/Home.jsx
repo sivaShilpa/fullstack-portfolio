@@ -4,7 +4,9 @@ import '../../components/Box/Box.css'
 const Home = () => {
   return (
     <div className='goldBox'>
-        <div className='fullname'>Shilpa Sivarajan</div>
+        <div className='fullname'>
+          <span className='firstName'>Shilpa</span>&nbsp;&nbsp;&nbsp;<span className='lastName'>Sivarajan</span>
+        </div>
         <div className='welcomeMessage'>Welcome to my Portfolio!</div>
     </div>
   )

@@ -40,10 +40,10 @@ const Navigation = () => {
       />
       <nav>
         <ul>
-          <li><a href="/"><img className="icon" src={Images.Home} alt="Home"/></a></li>
-          <li><a href="/About"><img className="icon" src={Images.About} alt="About"/></a></li>
-          <li><a href="/Skills"><img className="icon" src={Images.Skills} alt="Skills"/></a></li>
-          <li><a href="/Projects"><img className="icon" src={Images.Projects} alt="Projects"/></a></li>
+          <li><a href="/"><img className="icon" src={Images.Home} alt="Home" title="Home"/></a></li>
+          <li><a href="/About"><img className="icon" src={Images.About} alt="About" title="About"/></a></li>
+          <li><a href="/Skills"><img className="icon" src={Images.Skills} alt="Skills" title="Skills"/></a></li>
+          <li><a href="/Projects"><img className="icon" src={Images.Projects} alt="Projects" title="Projects"/></a></li>
         </ul>
       </nav>
     </header>
