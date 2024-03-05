@@ -1,23 +1,27 @@
 [
     {
-      "name": "ViChat",
-      "git": "https://github.com/sivaShilpa/Vichat_Project3",
-      "image": "https://i.imgur.com/L311u0W.png",
-      "description": "A video chat app."
+      "name": "Gemini Flights",
+      "git": "https://github.com/sivaShilpa/Flights",
+      "image": "./projects/Flights.png",
+      "description": "Gemini Flights is an intermediate level mission created by Mikhail Ocampo at RadicalX. The app was set up in a way that it introduces itself as a Google Gemini Powered agent which helps the user with flight details such as searching for available flights when the user gives a prompt to search for a flight with origin and destination on a specific date. The mission for the interns is to create a booking tool for the app where it books a flight ticket for the user when prompted for a specific flight and seat type such as 'economy', 'business class', 'first class'."
     },
     {
-      "name": "Task Mastermind",
-      "live": "https://taskmastermind.herokuapp.com/home",
-      "git": "https://github.com/sivaShilpa/Project-2",
-      "image": "https://i.imgur.com/Upo2ews.png",
-      "description": "A personal organizer."
+      "name": "Gemini Explorer",
+      "git": "https://github.com/sivaShilpa/GeminiExplorer",
+      "image": "./projects/Explorer.png",
+      "description": "This is a mission at RadicalX to build a chatbot called ReX who would assit you with your questions. This is a beginner project with tasks to set up Google Gemini, initialize Google Cloud, and integrate Streamlit. I had fun learning these tasks and also solving problems from importing vertexai and streamlit to setting service account in Google cloud. The initial prompt that was given to ReX is 'Introduce yourself as ReX, an assistant powered by Google Gemini. You use emojis to be interactive.'"
     },
     {
-      "name": "Tetris",
-      "live": "https://sivashilpa.github.io/Tetris/",
-      "git": "https://github.com/sivaShilpa/Tetris",
-      "image": "https://i.imgur.com/XL5FOX9.png",
-      "description": "The famous game Tetris."
+      "name": "CosmoChatUI",
+      "git": "https://github.com/sivaShilpa/CosmoChatUI",
+      "image": "./projects/CosmoChatUI.png",
+      "description": "An app where the user named Andrew interacts with an openAI powered career advice assistant named ReX. This is a beginner mission done during my internship at RadicalX. Tools used were React.JS, Material UI, Open AI, Axios and Framer Motion."
+    },
+    {
+      "name": "Missions Flow Page",
+      "git": "https://github.com/sivaShilpa/Missions-Flow-Project",
+      "image": "./projects/CosmoChatUI.png",
+      "description": "A mock missions page at RadicalX using Next.Js and Material UI. Built a frontend product very close to the given figma file."
     }
   ]
   

@@ -17,19 +17,21 @@
 .profilePic {
   display: flex;
   float: left;
-  margin-right: 0;
+  margin-right: 0;  
 }
 
 .profile {
   width: 80%;
   height: 50%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .display-about {
   color: #4b423b;
   display: flex;
   flex-direction: column;
+  line-height: 30px;
   /* justify-content: center;
     align-items: center;
     text-align: center;
