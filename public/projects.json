@@ -20,7 +20,7 @@
     {
       "name": "Missions Flow Page",
       "git": "https://github.com/sivaShilpa/Missions-Flow-Project",
-      "image": "./projects/CosmoChatUI.png",
+      "image": "./projects/MissionsFlow.png",
       "description": "A mock missions page at RadicalX using Next.Js and Material UI. Built a frontend product very close to the given figma file."
     }
   ]
