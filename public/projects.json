@@ -1,7 +1,6 @@
 [
     {
       "name": "ViChat",
-      "live": "https://vichat-messaging-app.herokuapp.com/",
       "git": "https://github.com/sivaShilpa/Vichat_Project3",
       "image": "https://i.imgur.com/L311u0W.png",
       "description": "A video chat app."

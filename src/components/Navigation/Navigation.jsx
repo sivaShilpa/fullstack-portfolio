@@ -10,10 +10,10 @@ const Navigation = () => {
   const tl = useRef(gsap.timeline({ defaults: { ease: "power2.inOut" } })).current;
 
   const handleToggle = () => {
-    // tl.clear(); // Clear any existing animations
+    tl.clear(); // Clear any existing animations
 
     tl.to('.activator', {
-      background: isToggled ? 'transparent' : '#DEABC2',
+      background: isToggled ? 'transparent' : '#a16a83',
       borderRadius: '5em 0 0 5em',
     });
     tl.to('nav', {
@@ -21,7 +21,7 @@ const Navigation = () => {
     }, "-=.5");
     tl.to('nav img', {
       opacity: isToggled ? 0 : 1,
-    //   transform: isToggled ? 'translateX(10px)' : 'translateX(0)',
+      transform: isToggled ? 'translateX(-10px)' : 'translateX(0)',
       stagger: isToggled ? 0 : 0.05,
     }, "-=.5");
 
