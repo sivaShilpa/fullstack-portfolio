@@ -11,7 +11,7 @@
   /* gap: 0; */
   width: 85%;
   height: 75%;
-  /* margin: 150px 50px 50px 30px;     */
+  margin: 150px 50px 50px 30px;    
 }
 
 .profilePic {
@@ -27,7 +27,7 @@
 }
 
 .display-about {
-  color: #635a53;
+  color: #4b423b;
   display: flex;
   flex-direction: column;
   /* justify-content: center;
