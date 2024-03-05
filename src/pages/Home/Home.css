@@ -6,7 +6,7 @@
 .firstName,
 .lastName,
 .welcomeMessage {
-  -webkit-text-stroke-color: #635a53;
+  -webkit-text-stroke-color: #4b423b;
 }
 .firstName {
   color: #388795;
