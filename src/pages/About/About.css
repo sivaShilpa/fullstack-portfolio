@@ -1,24 +1,59 @@
+.aboutPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .cardAbout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 70%; */
-    gap: 5px;
-    margin: 70px 50px 50px 30px;    
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: flex-start;
+  /* gap: 0; */
+  width: 85%;
+  height: 75%;
+  /* margin: 150px 50px 50px 30px;     */
 }
 
 .profilePic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  float: left;
+  margin-right: 0;
 }
 
 .profile {
-    width: 50%;
-    /* height: 50%; */
-    object-fit: cover;
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
 }
 
-/* .display-about {
-    
-} */
+.display-about {
+  color: #635a53;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0; */
+  top: 0;
+}
+.name {
+  font-size: 100px;
+  top: 0;
+}
+.icons {
+  gap: 50px;
+  display: flex;
+  /* flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.aboutIcon {
+  max-height: 70px;
+  width: 100%;
+}
+.bio {
+  font-size: 18px;
+  color: #4b423b;
+}

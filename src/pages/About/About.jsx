@@ -21,54 +21,55 @@ const About = () => {
   }, []);
 
   const loaded = () => (
-    <div className="blueBox cardAbout">
-      {/* <div className="cardContent"> */}
+    <div className="aboutPage">
+      <div className="blueBox cardAbout">
         <div className="profilePic">
-          <img className="profile" src={Images.ProfilePic} alt="profile"/>
+          <img className="profile" src={Images.ProfilePic} alt="profile" />
         </div>
         <div class="display-about">
-          <div class="content-about">
-            <div>
-              <h1 class="name">{about.name}</h1>
-            </div>
-            <div class="icons">
-              <a href="mailto: shilpasivarajan@gmail.com">
-                <img
-                  class="icon email"
-                  src="https://i.imgur.com/jEAdcHu.png"
-                  alt="Email icon from flaticon"
-                ></img>
-              </a>
-              <a href="https://github.com/sivaShilpa">
-                <img
-                  class="icon github"
-                  src="https://i.imgur.com/RhfoML7.png"
-                  alt="Github"
-                ></img>
-              </a>
-              <a href="https://www.linkedin.com/in/shilpa-sivarajan/">
-                <img
-                  class="icon LinkedIn"
-                  src="https://i.imgur.com/omX3QDN.png"
-                  alt="Linkedin"
-                ></img>
-              </a>
-              <a href="https://docs.google.com/document/d/1qWkNKmvTF1eptLR_3_lBK2d7VzBJvYFm/edit?usp=sharing&ouid=112433273414864169801&rtpof=true&sd=true">
-                <img
-                  class="icon resume"
-                  src="https://i.imgur.com/2GwlWib.png"
-                  alt="Resume icon from flaticon"
-                ></img>
-              </a>
-            </div>
-            <div class="bio">
-              <p>{about.bioPara1}</p>
-              <p>{about.bioPara2}</p>
-            </div>
+          <div>
+            <h1 class="name">{about.name}</h1>
           </div>
-        {/* </div> */}
-      </div>
-      {/* <div className="freepik">
+          <div class="icons">
+            <a href="mailto: shilpasivarajan@gmail.com" target="_blank" rel="noreferrer">
+              <img
+                class="aboutIcon"
+                src={Images.Email}
+                alt="Email"
+                title="Email"
+              ></img>
+            </a>
+            <a href="https://github.com/sivaShilpa" target="_blank" rel="noreferrer">
+              <img
+                class="aboutIcon"
+                src={Images.GitHub}
+                alt="Github"
+                title="GitHub"
+              ></img>
+            </a>
+            <a href="https://www.linkedin.com/in/shilpa-sivarajan/" target="_blank" rel="noreferrer">
+              <img
+                class="aboutIcon"
+                src={Images.LinkedIn}
+                alt="Linkedin"
+                title="LinkedIn"
+              ></img>
+            </a>
+            <a href="./Resume.pdf" target="_blank" rel="noreferrer">
+              <img
+                class="aboutIcon"
+                src={Images.Resume}
+                alt="Resume"
+                title="Resume"
+              ></img>
+            </a>
+          </div>
+          <div class="bio">
+            <p>{about.bioPara1}</p>
+            <p>{about.bioPara2}</p>
+          </div>
+        </div>
+        {/* <div className="freepik">
         {" "}
         Icons made by{" "}
         <a href="https://www.freepik.com" title="Freepik">
@@ -80,6 +81,7 @@ const About = () => {
           www.flaticon.com'
         </a>
       </div> */}
+      </div>
     </div>
   );
 

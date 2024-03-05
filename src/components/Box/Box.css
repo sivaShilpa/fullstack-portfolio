@@ -4,14 +4,14 @@
 }
 
 .blueBox {   
-   background: linear-gradient(45deg,#388795,#95D3DE);   
+   background: linear-gradient(to right,#388795,#95D3DE);   
 }
 .goldBox {
    background: linear-gradient(to right,#918D68,#DEDBC1);  
 }
 .pinkBox {
-   background: linear-gradient(45deg,#A16A83,#DEABC2);  
+   background: linear-gradient(to right,#A16A83,#DEABC2);  
 }
 .purpleBox {
-   background: linear-gradient(45deg,#6D6592,#C4BDE6);   
+   background: linear-gradient(to right,#6D6592,#C4BDE6);   
 }
