@@ -3,6 +3,7 @@ import "./About.css";
 import "../../components/Box/Box.css";
 import React from "react";
 import Images from "../../constants/Images";
+import Loading from "../../components/Loading/Loading";
 
 const About = () => {
   const [about, setAbout] = useState(null);
@@ -31,7 +32,11 @@ const About = () => {
             <h1 class="name">{about.name}</h1>
           </div>
           <div class="icons">
-            <a href="mailto: shilpasivarajan@gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto: shilpasivarajan@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 class="aboutIcon"
                 src={Images.Email}
@@ -39,7 +44,11 @@ const About = () => {
                 title="Email"
               ></img>
             </a>
-            <a href="https://github.com/sivaShilpa" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/sivaShilpa"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 class="aboutIcon"
                 src={Images.GitHub}
@@ -47,7 +56,11 @@ const About = () => {
                 title="GitHub"
               ></img>
             </a>
-            <a href="https://www.linkedin.com/in/shilpa-sivarajan/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/shilpa-sivarajan/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 class="aboutIcon"
                 src={Images.LinkedIn}
@@ -68,24 +81,12 @@ const About = () => {
             <p>{about.bioPara1}</p>
             <p>{about.bioPara2}</p>
           </div>
-        </div>
-        {/* <div className="freepik">
-        {" "}
-        Icons made by{" "}
-        <a href="https://www.freepik.com" title="Freepik">
-          {" "}
-          Freepik{" "}
-        </a>{" "}
-        from{" "}
-        <a href="https://www.flaticon.com/" title="Flaticon">
-          www.flaticon.com'
-        </a>
-      </div> */}
+        </div>        
       </div>
     </div>
   );
 
-  return about ? loaded() : <h1>Loading...</h1>;
+  return about ? loaded() : <Loading />;
 };
 
 export default About;
