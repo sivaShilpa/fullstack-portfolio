@@ -16,15 +16,15 @@ const Carousel = ({ projects }) => {
   };
   return (
     <div className="carousel">
-      <a onClick={prevSlide} className="carousel_link">
+      <div onClick={prevSlide} className="carousel_link">
         <img src={Images.Left} alt="Left" className="carousel_indicator" />
-      </a>
+      </div>
 
       <ProjectCard project={projects[activeIndex]} className="carousel_card" />
 
-      <a onClick={nextSlide} className="carousel_link">
+      <div onClick={nextSlide} className="carousel_link">
         <img src={Images.Right} alt="Right" className="carousel_indicator" />
-      </a>
+      </div>
     </div>
   );
 };
