@@ -22,6 +22,8 @@ import openai from "../assets/skills/openai.png";
 import python from "../assets/skills/python.png";
 import react from "../assets/skills/react.png";
 import sql from "../assets/skills/sql.png";
+import left from "../assets/indicators/left-arrow.png"
+import right from "../assets/indicators/right-arrow.png"
 
 const Images = {
   Home: Home,
@@ -51,5 +53,7 @@ const Images = {
     sql,
   ],
   SkillsTexts: ["VertexAI", "Axios", "Gemini"],
+  Left: left,
+  Right: right,
 };
 export default Images;

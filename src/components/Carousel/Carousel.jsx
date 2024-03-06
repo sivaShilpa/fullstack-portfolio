@@ -1,29 +1,30 @@
-import React, { useState } from 'react';
-const Carousel = ({ images }) => {
+import React, { useState } from "react";
+import ProjectCard from "../ProjectCard/ProjectCard";
+import Images from "../../constants/Images";
+import "./Carousel.css";
+const Carousel = ({ projects }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const nextSlide = () => {
     setActiveIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      prevIndex === projects.length - 1 ? 0 : prevIndex + 1
     );
   };
   const prevSlide = () => {
     setActiveIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
     );
   };
   return (
     <div className="carousel">
-      <button onClick={prevSlide} className="carousel__btn carousel__btn--prev">
-        &lt;
-      </button>
-      <img
-        src={images[activeIndex]}
-        alt={`Slide ${activeIndex}`}
-        className="carousel__img"
-      />
-      <button onClick={nextSlide} className="carousel__btn carousel__btn--next">
-        &gt;
-      </button>
+      <a onClick={prevSlide} className="carousel_link">
+        <img src={Images.Left} alt="Left" className="carousel_indicator" />
+      </a>
+
+      <ProjectCard project={projects[activeIndex]} className="carousel_card" />
+
+      <a onClick={nextSlide} className="carousel_link">
+        <img src={Images.Right} alt="Right" className="carousel_indicator" />
+      </a>
     </div>
   );
 };

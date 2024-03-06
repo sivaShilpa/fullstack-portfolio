@@ -1,0 +1,29 @@
+.card-projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+  max-width: 1000px;
+  min-height: 500px;
+  gap: 20px;
+}
+.project-image {
+  max-height: 400px;
+  left: 0;
+  flex: 1;
+  border-radius: 10px;
+}
+.projectContent {
+  flex: 3;
+  color: #4b423b;
+}
+.link > a {
+  text-decoration: none;
+  color: #4b423b;
+}
+.project-desc {
+  line-height: 30px;
+}
