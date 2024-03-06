@@ -1,17 +1,21 @@
-import './Home.css'
-import React from 'react'
-import '../../components/Box/Box.css' 
+import "./Home.css";
+import React from "react";
+import "../../components/Box/Box.css";
 const Home = () => {
   return (
-    <div className='goldBox'>
-        <div className='fullname'>
-          <span className='firstName'>Shilpa</span>&nbsp;&nbsp;&nbsp;<span className='lastName'>Sivarajan</span>
+    <div className="homePage">
+      <div className="goldBox welcomeText">
+        <span className="welcomeMessage">Welcome to </span>
+        <div>
+          <span className="firstName">
+            <span>&nbsp;</span>Shilpa
+          </span>
+          <span className="lastName">'s</span>
         </div>
-        <div className='welcomeMessage'>Welcome to my Portfolio!</div>
+        <span className="welcomeMessage"><span>&nbsp;</span>Portfolio!</span>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
-
-
+export default Home;

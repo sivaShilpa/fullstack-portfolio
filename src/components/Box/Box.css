@@ -2,6 +2,8 @@
    border-radius: 20px;
    padding: 20px; 
    box-shadow: 10px 10px 5px #1e1a18;
+   width: 80%;
+   /* height: 50%; */
 }
 
 .blueBox {   
@@ -16,3 +18,19 @@
 .purpleBox {
    background: linear-gradient(to right,#6D6592,#C4BDE6);   
 }
+
+@media only screen and (max-width: 600px) {
+  
+ }
+ @media only screen and (min-width: 600px) {
+   
+ }
+ @media only screen and (min-width: 768px) {
+   
+ }
+ @media only screen and (min-width: 992px) {
+   
+ }
+ @media only screen and (min-width: 1200px) {
+   
+ }

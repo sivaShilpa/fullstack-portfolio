@@ -1,9 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@300&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@300&family=Ubuntu&display=swap");
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  text-align: center;
+  float: none;
+  height: 90vh;
+  width: 100vw;
   background-color: #4b423b;
-  font-family: 'Ubuntu', 'Karla', 'Poppins';
+  font-family: "Ubuntu", "Karla", "Poppins";
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  body {
+    height: 95vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    height: 93vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    height: 80vh;
+  }
 }
