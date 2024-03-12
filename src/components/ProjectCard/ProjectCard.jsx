@@ -2,7 +2,7 @@ import React from "react";
 import "./ProjectCard.css";
 const ProjectCard = ({ project }) => {
   return (
-    <div class="card-projects purpleBox">
+    <div class="card-projects blueBox">
       <div className="projectImg">
         <img class="project-image" src={project.image} alt="project" />
       </div>

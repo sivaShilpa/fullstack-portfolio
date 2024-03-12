@@ -1,36 +1,8 @@
-.goldBox, .blueBox, .pinkBox, .purpleBox{
-   border-radius: 20px;
-   padding: 20px; 
-   box-shadow: 10px 10px 5px #1e1a18;
-   width: 80%;
-   /* height: 50%; */
+.blueBox {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px #1e1a18;
+  min-width: min-content;
+  max-width: max-content;
+  background: linear-gradient(to right, #030e6a, #296cdd);
 }
-
-.blueBox {   
-   background: linear-gradient(to right,#388795,#95D3DE);   
-}
-.goldBox {
-   background: linear-gradient(to right,#918D68,#DEDBC1);  
-}
-.pinkBox {
-   background: linear-gradient(to right,#A16A83,#DEABC2);  
-}
-.purpleBox {
-   background: linear-gradient(to right,#6D6592,#C4BDE6);   
-}
-
-@media only screen and (max-width: 600px) {
-  
- }
- @media only screen and (min-width: 600px) {
-   
- }
- @media only screen and (min-width: 768px) {
-   
- }
- @media only screen and (min-width: 992px) {
-   
- }
- @media only screen and (min-width: 1200px) {
-   
- }

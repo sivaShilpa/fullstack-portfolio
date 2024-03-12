@@ -12,7 +12,7 @@ header {
   cursor: pointer;
 
   &:hover, &:focus, &:active, &.active {
-    background-color: #a16a83;
+    background-color: #0d2146;
   }  
 }
 .active {

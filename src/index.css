@@ -5,11 +5,11 @@ body {
   align-items: center;
   text-align: center;
   float: none;
-  height: 90vh;
-  width: 100vw;
-  background-color: #4b423b;
+  height: 80vh;
+  margin-top: 100px;
+  background: linear-gradient(to right, #010a19, #0d2146);;
   font-family: "Ubuntu", "Karla", "Poppins";
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 .App {
   display: flex;

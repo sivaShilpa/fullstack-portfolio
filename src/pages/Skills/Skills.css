@@ -1,18 +1,20 @@
 #skills-container {
   display: flex;
   flex-flow: row wrap;
-  margin: 150px;
+  margin: 0 150px;
+  width: 60%;
 }
 .eachSkill {
   margin: 10px;
   min-width: 100px;
   min-height: 100px;
   max-width: 200px;
+  max-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #4b423b;
+  color: #010a19;
 }
 .iconSkills {
   width: 100%;

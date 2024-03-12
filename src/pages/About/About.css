@@ -2,60 +2,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .cardAbout {
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
-  align-items: flex-start;
-  /* gap: 0; */
-  width: 85%;
-  height: 75%;
-  margin: 150px 50px 50px 30px;    
-}
-
-.profilePic {
-  display: flex;
-  float: left;
-  margin-right: 0;  
-}
-
-.profile {
-  width: 80%;
-  height: 50%;
-  object-fit: cover;
-  border-radius: 10px;
+  align-items: center;
+  width: 50%;
+  /* margin: 150px 50px 50px 30px; */
 }
 
 .display-about {
-  color: #4b423b;
+  color: #c4d9de;
   display: flex;
   flex-direction: column;
   line-height: 30px;
-  /* justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0; */
   top: 0;
 }
 .name {
   font-size: 100px;
   top: 0;
 }
-.icons {
-  gap: 50px;
-  display: flex;
-  /* flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
-}
-.aboutIcon {
-  max-height: 70px;
-  width: 100%;
-}
 .bio {
   font-size: 18px;
-  color: #4b423b;
+  color: #c4d9de;
+}
+@media screen and (max-width: 767px) {
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+ 
+}
+@media screen and (min-width: 1024px) {
+ 
 }

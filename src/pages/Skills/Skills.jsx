@@ -20,15 +20,15 @@ const Skills = () => {
 
   const loaded = () => {
     return skillImages.map((skill, index) => (
-      <div key={index} className="pinkBox eachSkill">
-        <img className="iconSkills" src={skill} alt={`skill-${index}`} />
+      <div key={index} className="blueBox eachSkill">
+        <img className="iconSkills" src={skill[0]} alt={skill[1]} title={skill[1]}/>
       </div>
     ));
   };
 
   const loaded1 = () => {
     return skillTexts.map((skill, index) => (
-      <div key={index} className="pinkBox eachSkill">
+      <div key={index} className="blueBox eachSkill">
         <h2>{skill}</h2>
       </div>
     ));
