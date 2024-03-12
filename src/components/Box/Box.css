@@ -1,8 +1,13 @@
-.blueBox {
+.blueBox, .lightblueBox{
   border-radius: 20px;
   padding: 20px;
   box-shadow: 10px 10px 5px #1e1a18;
   min-width: min-content;
   max-width: max-content;
+}
+.blueBox { 
   background: linear-gradient(to right, #030e6a, #296cdd);
+}
+.lightblueBox {
+  background: linear-gradient(to right, #296cdd, #c4d9de);
 }
