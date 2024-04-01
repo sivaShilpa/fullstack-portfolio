@@ -22,7 +22,7 @@ const About = () => {
 
   const loaded = () => (
     <div className="aboutPage">
-      <div className="blueBox cardAbout">
+      <div className="gradientBox cardAbout">
         
         <div class="display-about">
           <div>

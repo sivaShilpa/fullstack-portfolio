@@ -12,7 +12,8 @@ header {
   cursor: pointer;
 
   &:hover, &:focus, &:active, &.active {
-    background-color: #0d2146;
+    background-color: #a9b19a;
+    box-shadow: 5px 5px 5px #1e1a18;
   }  
 }
 .active {

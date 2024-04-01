@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import Images from "../../constants/Images";
 import "./Carousel.css";
+
 const Carousel = ({ projects }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const nextSlide = () => {

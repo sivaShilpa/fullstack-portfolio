@@ -13,7 +13,7 @@ const Navigation = () => {
     tl.clear(); // Clear any existing animations
 
     tl.to('.activator', {
-      background: isToggled ? 'transparent' : '#0d2146',
+      background: isToggled ? 'transparent' : '#a9b19a',
       borderRadius: '5em 0 0 5em',
     });
     tl.to('nav', {

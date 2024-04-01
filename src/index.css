@@ -7,7 +7,7 @@ body {
   float: none;
   height: 80vh;
   margin-top: 100px;
-  background: linear-gradient(to right, #010a19, #0d2146);;
+  background: linear-gradient(to right, #a9b19a, #eee9e9, #cab1b2);
   font-family: "Ubuntu", "Karla", "Poppins";
   box-sizing: content-box;
 }

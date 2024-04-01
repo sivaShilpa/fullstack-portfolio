@@ -18,11 +18,11 @@
 }
 .projectContent {
   flex: 3;
-  color: #c4d9de;
+  color: #000000;
 }
 .link > a {
   text-decoration: none;
-  color: #c4d9de;
+  color: #000000;
 }
 .project-desc {
   line-height: 30px;
