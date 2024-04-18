@@ -17,7 +17,7 @@ function App() {
         </Routes>
       </div>
       <div className="SWMessage">
-        <p>Hi there, Please view this website on a device with more than 1024px width. Thank you!</p>
+        <p>Hi there, Please view this website on a device with more than 1200px width. Thank you!</p>
       </div>
     </>
   );
