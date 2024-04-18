@@ -1,22 +1,40 @@
 #skills-container {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 150px;
-  width: 60%;
+  margin: 0 15vh;
+  width: 100%;
+  min-width: 360px;
 }
 .eachSkill {
-  margin: 10px;
-  min-width: 100px;
-  min-height: 100px;
-  max-width: 200px;
-  max-height: 200px;
+  margin: 1.5vh;
+  min-width: 10vh;
+  min-height: 10vh;
+  max-width: 100vh;
+  max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #010a19;
+  color: #000000;
 }
 .iconSkills {
   width: 100%;
-  max-width: 100px;
+  max-width: 10vh;
+}
+
+@media screen and (max-width: 767px) {
+  #skills-container {
+    margin: 0 1vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #skills-container {
+    margin: 0 5vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #skills-container {
+    min-width: 760px;
+    margin: 0 5vh;
+  }
 }
